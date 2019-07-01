@@ -76,7 +76,7 @@ def handle(msg):
             
             
 
-bot = telepot.Bot('771836217:AAGWWCc5ZJN8eoLaEUL2vhWLHvpOAv7RA1I') 
+bot = telepot.Bot('TOKEN') 
 MessageLoop(bot, handle).run_as_thread()
 
 while True:
